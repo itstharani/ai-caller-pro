@@ -1,1 +1,1 @@
-{"build":{"builder":"NIXPACKS"},"deploy":{"startCommand":"cd server && node index.js"}}
+{"build":{"buildCommand":"npm install --prefix server"},"deploy":{"startCommand":"node server/index.js"}}
